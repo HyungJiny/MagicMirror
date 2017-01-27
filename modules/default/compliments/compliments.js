@@ -7,25 +7,29 @@
  * MIT Licensed.
  */
 
+var greeting = "Hello, Hyungjin!";
 Module.register("compliments",{
 
 	// Module config defaults.
 	defaults: {
 		compliments: {
 			morning: [
-				"Good morning, handsome!",
-				"Enjoy your day!",
-				"How was your sleep?"
+				greeting
+				//"Good morning, handsome!",
+				//"Enjoy your day!",
+				//"How was your sleep?"
 			],
 			afternoon: [
-				"Hello, beauty!",
-				"You look sexy!",
-				"Looking good today!"
+				greeting
+				//"Hello, beauty!",
+				//"You look sexy!",
+				//"Looking good today!"
 			],
 			evening: [
-				"Wow, you look hot!",
-				"You look nice!",
-				"Hi, sexy!"
+				greeting
+				//"Wow, you look hot!",
+				//"You look nice!",
+				//"Hi, sexy!"
 			]
 		},
 		updateInterval: 30000,
